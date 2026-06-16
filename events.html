@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Events — FontDale Premium Lifestyle Mall</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="navbar" id="navbar">
+    <div class="navbar__container">
+      <a href="home.html" class="navbar__logo">
+        <img src="Asset/logo.svg" alt="FontDale Logo" class="navbar__logo-img" />
+      </a>
+      <nav class="navbar__nav" id="navMenu">
+        <ul class="navbar__list">
+          <li class="navbar__item"><a href="home.html" class="navbar__link">Home</a></li>
+          <li class="navbar__item"><a href="directory.html" class="navbar__link">Directory</a></li>
+          <li class="navbar__item"><a href="events.html" class="navbar__link navbar__link--active">Events</a></li>
+          <li class="navbar__item"><a href="about.html" class="navbar__link">About Us</a></li>
+          <li class="navbar__item"><a href="newsletter.html" class="navbar__link">Newsletter</a></li>
+        </ul>
+      </nav>
+      <a href="newsletter.html" class="navbar__cta">Visit Us</a>
+      <button class="navbar__hamburger" id="hamburgerBtn" aria-expanded="false">
+        <span class="navbar__hamburger-line"></span>
+        <span class="navbar__hamburger-line"></span>
+        <span class="navbar__hamburger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="page-hero__content">
+        <span class="section-label section-label--light">What's On</span>
+        <h1 class="page-hero__title">Upcoming Events</h1>
+      </div>
+    </section>
+
+
+    <section class="events-list">
+      <div class="events-list__container">
+        <div class="events-list__grid">
+
+          <article class="event-list-card">
+            <div class="event-list-card__date-block">
+              <span class="event-list-card__day">15</span>
+              <span class="event-list-card__month">JUL</span>
+            </div>
+            <div class="event-list-card__img">
+              <img src="Asset/car.png" alt="Avant-Garde Auto Showcase" />
+            </div>
+            <div class="event-list-card__content">
+              <span class="event-card__tag">Exhibition</span>
+              <h3 class="event-list-card__title">Avant-Garde Auto Showcase</h3>
+              <p class="event-list-card__venue">Grand Atrium</p>
+              <p class="event-list-card__desc">Discover the future of mobility at our exclusive exhibition. Explore a curated lineup of premium electric vehicles and visionary concept cars, highlighting state-of-the-art engineering and sustainable design.</p>
+            </div>
+          </article>
+
+          <article class="event-list-card">
+            <div class="event-list-card__date-block">
+              <span class="event-list-card__day">20</span>
+              <span class="event-list-card__month">AUG</span>
+            </div>
+            <div class="event-list-card__img">
+              <img src="Asset/art showcase.jpg" alt="The Horizon Art Collection" />
+            </div>
+            <div class="event-list-card__content">
+              <span class="event-card__tag">Art</span>
+              <h3 class="event-list-card__title">The Horizon Art Collection</h3>
+              <p class="event-list-card__venue">North Gallery</p>
+              <p class="event-list-card__desc">Immerse yourself in a space of creative brilliance. This seasonal gallery features breathtaking contemporary pieces, bringing together evocative landscapes and modern expressions from globally recognized artists.</p>
+            </div>
+          </article>
+
+          <article class="event-list-card">
+            <div class="event-list-card__date-block">
+              <span class="event-list-card__day">05</span>
+              <span class="event-list-card__month">SEP</span>
+            </div>
+            <div class="event-list-card__img">
+              <img src="Asset/couture runaway.webp" alt="Fall Couture Runway" />
+            </div>
+            <div class="event-list-card__content">
+              <span class="event-card__tag">Fashion</span>
+              <h3 class="event-list-card__title">Fall Couture Runway Show</h3>
+              <p class="event-list-card__venue">Lumen Skywalk</p>
+              <p class="event-list-card__desc">Experience the pinnacle of modern elegance. Join us for an intimate evening of runway presentations, unveiling the latest collections from renowned fashion houses and visionary emerging designers.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__top footer__top--layout">
+        <div class="footer__brand">
+          <a href="home.html" class="footer__logo">
+            <img src="Asset/logo.svg" alt="FontDale Logo" class="navbar__logo-img" />
+          </a>
+          <p class="footer__tagline">Your premier lifestyle destination — where<br>every visit is an experience.</p>
+        </div>
+        <div class="footer__links footer__links--layout">
+          <div class="footer__col">
+            <h4 class="footer__col-title">EXPLORE</h4>
+            <ul class="footer__list">
+              <li><a href="directory.html" class="footer__link">All Stores</a></li>
+              <li><a href="events.html" class="footer__link">Events</a></li>
+              <li><a href="about.html" class="footer__link">About Us</a></li>
+              <li><a href="newsletter.html" class="footer__link">Newsletter</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4 class="footer__col-title">VISIT US</h4>
+            <address class="footer__address">
+              123 Discovery Boulevard, North Jakarta<br />
+              Mon–Sun: 10:00 AM – 10:00 PM
+            </address>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">&copy; 2026 FontDale. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

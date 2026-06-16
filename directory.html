@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Directory — FontDale Premium Lifestyle Mall</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="navbar" id="navbar">
+    <div class="navbar__container">
+      <a href="home.html" class="navbar__logo">
+        <img src="Asset/logo.svg" alt="FontDale Logo" class="navbar__logo-img" />
+      </a>
+      <nav class="navbar__nav" id="navMenu">
+        <ul class="navbar__list">
+          <li class="navbar__item"><a href="home.html" class="navbar__link">Home</a></li>
+          <li class="navbar__item"><a href="directory.html" class="navbar__link navbar__link--active">Directory</a></li>
+          <li class="navbar__item"><a href="events.html" class="navbar__link">Events</a></li>
+          <li class="navbar__item"><a href="about.html" class="navbar__link">About Us</a></li>
+          <li class="navbar__item"><a href="newsletter.html" class="navbar__link">Newsletter</a></li>
+        </ul>
+      </nav>
+      <a href="newsletter.html" class="navbar__cta">Visit Us</a>
+      <button class="navbar__hamburger" id="hamburgerBtn" aria-expanded="false">
+        <span class="navbar__hamburger-line"></span>
+        <span class="navbar__hamburger-line"></span>
+        <span class="navbar__hamburger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="page-hero__content">
+        <span class="section-label section-label--light">Our Tenants</span>
+        <h1 class="page-hero__title">Store Directory</h1>
+      </div>
+    </section>
+
+    <div class="stores-filter">
+      <div class="stores-filter__container">
+        <div class="stores-filter__tabs">
+          <button class="stores-filter__tab stores-filter__tab--active" data-filter="all">All Stores</button>
+          <button class="stores-filter__tab" data-filter="north">North Gallery</button>
+          <button class="stores-filter__tab" data-filter="lumen">Lumen Skywalk</button>
+          <button class="stores-filter__tab" data-filter="south">South Pavilion</button>
+        </div>
+      </div>
+    </div>
+
+    <section class="stores-grid">
+      <div class="stores-grid__container">
+        <div class="stores-grid__items">
+          
+          <div class="store-card" data-category="north">
+            <img src="Asset/AsiaFresh.png" alt="Asia Fresh" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Asia Fresh</h3>
+              <p class="store-card__desc">Premium Asian Groceries.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="north">
+            <img src="Asset/musas.png" alt="Musas" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Musas</h3>
+              <p class="store-card__desc">Fresh Market.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="north">
+            <img src="Asset/freshGen.png" alt="Fresh Gen" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Fresh Gen</h3>
+              <p class="store-card__desc">Organic Produce.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="north">
+            <img src="Asset/epicery.png" alt="Epicery" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Epicery</h3>
+              <p class="store-card__desc">Fine Foods.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="north">
+            <img src="Asset/Aldridge.png" alt="Aldridge Produce" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Aldridge Produce</h3>
+              <p class="store-card__desc">Local Farm Market.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="north">
+            <img src="Asset/zaddys.png" alt="Zaddys" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Zaddys</h3>
+              <p class="store-card__desc">Quality Groceries.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="north">
+            <img src="Asset/LOreal-Logo-500x281.png" alt="L'Oreal" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">L'Oreal</h3>
+              <p class="store-card__desc">Premium Beauty.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="north">
+            <img src="Asset/Pantene-Logo-500x281.png" alt="Pantene" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Pantene</h3>
+              <p class="store-card__desc">Professional Hair Care.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="north">
+            <img src="Asset/Dove-Logo-500x281.png" alt="Dove" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Dove</h3>
+              <p class="store-card__desc">Personal Care.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="north">
+            <img src="Asset/Anastasia-Logo-500x281.png" alt="Anastasia" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Anastasia</h3>
+              <p class="store-card__desc">Luxury Cosmetics.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="north">
+            <img src="Asset/Lancome-Logo-500x281.png" alt="Lancome" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Lancome</h3>
+              <p class="store-card__desc">French Beauty.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="north">
+            <img src="Asset/Maybelline-Logo-500x281.png" alt="Maybelline" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Maybelline</h3>
+              <p class="store-card__desc">Iconic Makeup.</p>
+            </div>
+          </div>
+          
+          <div class="store-card" data-category="north">
+            <img src="Asset/oppo.png" alt="Oppo" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Oppo</h3>
+              <p class="store-card__desc">Smartphones & Tech.</p>
+            </div>
+          </div>
+
+          <div class="store-card" data-category="north">
+            <img src="Asset/Apple.png" alt="Apple" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Apple</h3>
+              <p class="store-card__desc">Innovative Tech.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="north">
+            <img src="Asset/Samsung.jpg" alt="Samsung" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Samsung</h3>
+              <p class="store-card__desc">Electronics & Mobile.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="north">
+            <img src="Asset/Huawei-Logo-768x432.png" alt="Huawei" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Huawei</h3>
+              <p class="store-card__desc">Smart Devices.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="north">
+            <img src="Asset/Xiaomi-logo-768x432.png" alt="Xiaomi" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Xiaomi</h3>
+              <p class="store-card__desc">Tech Ecosystem.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="north">
+            <img src="Asset/Lenovo.png" alt="Lenovo" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Lenovo</h3>
+              <p class="store-card__desc">Computers & Accessories.</p>
+            </div>
+          </div>
+
+          <div class="store-card" data-category="lumen">
+            <img src="Asset/Aurate.png" alt="Aurate" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Aurate</h3>
+              <p class="store-card__desc">Fine Jewelry Everyday.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="lumen">
+            <img src="Asset/Tacori.png" alt="Tacori" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Tacori</h3>
+              <p class="store-card__desc">Handcrafted Jewelry.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="lumen">
+            <img src="Asset/Brilliant-Earth-Logo.png" alt="Brilliant Earth" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Brilliant Earth</h3>
+              <p class="store-card__desc">Ethical Diamonds.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="lumen">
+            <img src="Asset/Alison-Lou-Logo.png" alt="Alison Lou" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Alison Lou</h3>
+              <p class="store-card__desc">Modern Jewelry.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="lumen">
+            <img src="Asset/kendra-scott.png" alt="Kendra Scott" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Kendra Scott</h3>
+              <p class="store-card__desc">Designer Accessories.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="lumen">
+            <img src="Asset/Finn-Jewelry-Logo-768x432.png" alt="Finn" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Finn</h3>
+              <p class="store-card__desc">Fine Jewelry.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="lumen">
+            <img src="Asset/Burberry-Logo-768x432.png" alt="Burberry" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Burberry</h3>
+              <p class="store-card__desc">Luxury British Fashion.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="lumen">
+            <img src="Asset/UGG-Logo-768x427.png" alt="UGG" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">UGG</h3>
+              <p class="store-card__desc">Apparel & Footwear.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="lumen">
+            <img src="Asset/Crocs-Logo-768x432.png" alt="Crocs" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Crocs</h3>
+              <p class="store-card__desc">Casual Footwear.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="lumen">
+            <img src="Asset/Fila-logo-768x432.png" alt="Fila" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Fila</h3>
+              <p class="store-card__desc">Classic Sportswear.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="lumen">
+            <img src="Asset/Nike-logo-768x432.jpg" alt="Nike" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Nike</h3>
+              <p class="store-card__desc">Sports & Activewear.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="lumen">
+            <img src="Asset/Puma-logo-1-768x432.jpg" alt="Puma" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Puma</h3>
+              <p class="store-card__desc">Athletic Wear.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="lumen">
+            <img src="Asset/bubbel&brie.avif" alt="Bubbel & Brie" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Bubbel & Brie</h3>
+              <p class="store-card__desc">Cheese & Wine.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="lumen">
+            <img src="Asset/acai-bowl-bar.png" alt="Acai Bowl Bar" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Acai Bowl Bar</h3>
+              <p class="store-card__desc">Healthy Eats.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="lumen">
+            <img src="Asset/Nomad restaurant.avif" alt="Nomad Restaurant" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Nomad</h3>
+              <p class="store-card__desc">Fine Dining.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="lumen">
+            <img src="Asset/La cave.png" alt="La Cave" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">La Cave</h3>
+              <p class="store-card__desc">Exclusive Wine Cellar.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="lumen">
+            <img src="Asset/kalzbrgr.avif" alt="Kalzbrgr" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Kalzbrgr</h3>
+              <p class="store-card__desc">Premium Burgers.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="lumen">
+            <img src="Asset/sushitoday.png" alt="Sushi Today" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Sushi Today</h3>
+              <p class="store-card__desc">Authentic Sushi.</p>
+            </div>
+          </div>
+
+          <div class="store-card" data-category="south">
+            <img src="Asset/firstClass.png" alt="First Class" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">First Class</h3>
+              <p class="store-card__desc">Upholstery & Furniture.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="south">
+            <img src="Asset/bergfurniture.png" alt="Berg Furniture" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Berg Furniture</h3>
+              <p class="store-card__desc">Comfort in Design.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="south">
+            <img src="Asset/matrix.png" alt="Matrix" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Matrix</h3>
+              <p class="store-card__desc">Furniture Group.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="south">
+            <img src="Asset/powell.jpg" alt="Powell" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Powell</h3>
+              <p class="store-card__desc">Home Furnishings.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="south">
+            <img src="Asset/newport-cottages.jpg" alt="Newport Cottages" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Newport Cottages</h3>
+              <p class="store-card__desc">Fine Furniture.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="south">
+            <img src="Asset/sentry logo.png" alt="Sentry" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Sentry</h3>
+              <p class="store-card__desc">Home Security.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="south">
+            <img src="Asset/Mathiesons.png" alt="Mathiesons" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Mathiesons</h3>
+              <p class="store-card__desc">Great Taste Bakery.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="south">
+            <img src="Asset/West-Cornwall-Pasty.png" alt="West Cornwall" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">West Cornwall</h3>
+              <p class="store-card__desc">Pasty Co.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="south">
+            <img src="Asset/A1-Cake-Mixes.png" alt="A1 Cake Mixes" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">A1 Cake Mixes</h3>
+              <p class="store-card__desc">Baking Supplies.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="south">
+            <img src="Asset/Hovis-Logo.png" alt="Hovis" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Hovis</h3>
+              <p class="store-card__desc">Bread & Bakery.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="south">
+            <img src="Asset/Great-British-Biscotti.png" alt="Great British Biscotti" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Great British Biscotti</h3>
+              <p class="store-card__desc">Artisanal Biscotti.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="south">
+            <img src="Asset/Ole-Steen-Logo.png" alt="Ole & Steen" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Ole & Steen</h3>
+              <p class="store-card__desc">Danish Bakery.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="south">
+            <img src="Asset/1-Coco-Chanel-Timeless-Logo.png" alt="Chanel" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Chanel</h3>
+              <p class="store-card__desc">Timeless Elegance.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="south">
+            <img src="Asset/Giorgio-armani.jpg" alt="Armani" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Armani</h3>
+              <p class="store-card__desc">Italian Luxury.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="south">
+            <img src="Asset/Givenchy.jpg" alt="Givenchy" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Givenchy</h3>
+              <p class="store-card__desc">French Haute Couture.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="south">
+            <img src="Asset/dior.jpg" alt="Dior" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Dior</h3>
+              <p class="store-card__desc">Luxury French Fashion.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="south">
+            <img src="Asset/prada.jpg" alt="Prada" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Prada</h3>
+              <p class="store-card__desc">Italian Leather & Fashion.</p>
+            </div>
+          </div>
+          <div class="store-card" data-category="south">
+            <img src="Asset/Valentino.jpg" alt="Valentino" />
+            <div class="store-card__overlay">
+              <h3 class="store-card__name">Valentino</h3>
+              <p class="store-card__desc">Elegant Italian Fashion.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__top footer__top--layout">
+        <div class="footer__brand">
+          <a href="home.html" class="footer__logo">
+            <img src="Asset/logo.svg" alt="FontDale Logo" class="navbar__logo-img" />
+          </a>
+          <p class="footer__tagline">Your premier lifestyle destination — where<br>every visit is an experience.</p>
+        </div>
+        <div class="footer__links footer__links--layout">
+          <div class="footer__col">
+            <h4 class="footer__col-title">EXPLORE</h4>
+            <ul class="footer__list">
+              <li><a href="directory.html" class="footer__link">All Stores</a></li>
+              <li><a href="events.html" class="footer__link">Events</a></li>
+              <li><a href="about.html" class="footer__link">About Us</a></li>
+              <li><a href="newsletter.html" class="footer__link">Newsletter</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4 class="footer__col-title">VISIT US</h4>
+            <address class="footer__address">
+              123 Discovery Boulevard, North Jakarta<br />
+              Mon–Sun: 10:00 AM – 10:00 PM
+            </address>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">&copy; 2026 FontDale. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
